@@ -1,0 +1,90 @@
+/*font-family: "Rampart One", sans-serif;/*
+/*font-family: "Sour Gummy", sans-serif;/*
+/* Reset simples */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rampart One", sans-serif;
+    line-height: 1.6;
+    background-color: #FEFAE0;
+    color: #333;
+}
+
+header {
+    background: #4B3832;
+    color: #2040be;
+    padding: 1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    color: #D4A373;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    color: #D4A373;
+}
+
+nav a {
+    color: #D4A373;
+    text-decoration: none;
+    text-align: right;
+}
+
+
+nav a:hover {
+    color: #BC6C25;
+    text-decoration: underline;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #FAEDCD;
+}
+
+section,
+aside {
+    background: #FEFAE0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0,1);
+}
+article{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-left: 4px #2040be;
+    background: #FAEDCD;
+    
+    border-radius: 10px;
+
+}
+footer{
+    background: #4B3832;
+    color:#D4A373;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    
+}
+section img{
+    height: 320px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px #D4A373;
+    padding-left: 9px;
+
+}
